@@ -12,6 +12,7 @@ end
 
 def pop_with_args(array,num2del)
   num2del.times do
-    array.pop
+    output[num2del - 1] = array.pop
+    num2del -= 1
   end
 end
