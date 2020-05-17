@@ -13,3 +13,4 @@ end
 def pop_with_args(array,num2del)
   num2del.times do array.pop
 end
+end
