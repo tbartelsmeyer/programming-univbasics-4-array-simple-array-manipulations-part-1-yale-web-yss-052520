@@ -1,8 +1,8 @@
-def using_push(array,element)
+def using_push(array, element)
   array.push(element)
 end
 
-def using_unshift(array,element)
+def using_unshift(array, element)
   array.unshift(element)
 end
   
@@ -18,6 +18,6 @@ def using_shift(array)
   array.shift 
 end
 
-def shift_with_args(array,num2shift)
-  array.shift(num2shift)
+def shift_with_args(array)
+  array.shift(2)
 end
